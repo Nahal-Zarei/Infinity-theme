@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+
+header {
+    background-image: url("/Images/wepik-photo-mode-202286-221150.png");
+    height: 500px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+
+.headernav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.infinity {
+    color: white;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 10px;
+    top: 13px;
+}
+
+.headerul li {
+    list-style: none;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 700;
+    margin-right: 20px;
+    margin-left: 20px;
+    letter-spacing: 2px;
+}
+.headerul li:hover {
+    color: #D43C67;
+    cursor: pointer;
+}
+
+h1 {
+    color: white;
+    font-size: 4rem;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 400;
+    text-align: center;
+    justify-content: center;
+    margin: 20vh auto 0;
+}
+
+.p1 {
+    color: white;
+    font-size: 1.2rem;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 0;
+}
+
+.btn1 {
+    color: #ffffff;
+    background-color: #D43C67;
+    font-family: 'Raleway', sans-serif;
+    font-size: 8px;
+    font-weight: 700;
+    border: none;
+    text-align: center;
+    display: block;
+    margin: 30px auto;
+    padding: 8px 25px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    
+}
+
+.a1 {
+    text-decoration: none;
+    color: #ffffff;
+} 
+
+
+
+.btn1:hover {
+     color: black;
+    background-color: white;
+}
+    
