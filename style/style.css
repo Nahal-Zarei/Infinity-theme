@@ -246,6 +246,11 @@ h1 {
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1280px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .boxdiv {
@@ -253,7 +258,7 @@ h1 {
     height: 250px;
     width: 350px;
     margin: 10px 10px;
-    display: inline-block;
+    display: inline-block;    
 }
 
 .boxdiv h4 {
@@ -283,7 +288,8 @@ h1 {
 /* mission style */
 
 .mission {
-    background-image: url(/Images/offices-1181385.jpg);
+    background-image: url(/Images/modern-laptop-on-wooden-desk-picjumbo-com.jpg);
+    background-position: bottom;
     width: 100%;
     height: 500px;
 }
@@ -462,4 +468,120 @@ h1 {
 }
 .member8 img {
     width: 100%;
+}
+
+/* End of team member style */
+
+/*  Work with us style  */
+
+.workwithus {
+    background-image: url(/Images/business-woman-using-her-laptop-on-a-sofa-picjumbo-com.jpg);
+    background-position: center;
+    width: 100%;
+    height: 500px;
+}
+
+.h27 {
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 500;
+    font-size: 40px;
+    padding-top: 150px;
+    color: #ffffff;
+}
+
+.p27 {
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 25px;
+    font-weight: 200;
+    font-style: italic;
+    padding-top: 25px;
+    line-height: 45px;
+    color: white;
+}
+
+
+.btn27 {
+    color: #ffffff;
+    background-color: #D43C67;
+    font-family: 'Raleway', sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    border: none;
+    text-align: center;
+    display: block;
+    margin: 30px auto;
+    padding: 10px 15px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    
+}
+
+.a27 {
+    text-decoration: none;
+    color: #ffffff;
+} 
+
+.btn27:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+
+/* End of work with us style */
+
+/* Footer */
+
+.footernav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.footerul {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.footerul li a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 700;
+    margin-right: 20px;
+    margin-left: 20px;
+    letter-spacing: 2px;
+}
+
+.footerul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.footerul li a:hover {
+    color: #D43C67;
+    cursor: pointer;
+}
+
+.p28 {
+    text-align: center;
+    display: flex;
+    justify-content: center; 
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+
+
+.p28 a {
+    text-decoration: none;
+    color: black;
+}
+
+.p28 a:hover {
+    color: #D43C67;
+    cursor: pointer;   
 }
