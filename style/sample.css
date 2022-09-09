@@ -1,0 +1,279 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Cormorant Garamond", serif;
+}
+
+
+/* Header style */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+}
+
+.headernav {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 30px;
+  align-items: baseline;
+}
+
+.infinity {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 10px;
+  top: 13px;
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+
+.headerul {
+  margin-top: 14px;
+  margin-bottom: 30px;
+}
+
+.headerul li a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-family: "Raleway", sans-serif;
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 700;
+  margin-right: 20px;
+  margin-left: 20px;
+  letter-spacing: 2px;
+}
+
+.headerul li {
+  list-style: none;
+  display: inline-block;
+}
+
+.headerul li a:hover {
+  color: #d43c67;
+  cursor: pointer;
+}
+
+/* End of header */
+
+/*p stands for paragraph in here and s stands for strong tags*/
+
+.sample {
+  line-height: 1.75;
+  font-size: 22px;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 72px;
+}
+
+.p1 {
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+
+.p2 {
+  
+  display: flex;
+  justify-content: center;
+  line-height: 1.8;
+  margin-bottom: 30px;
+  font-style: italic;
+      font-size: 20px;
+    padding-left: 37px;
+}
+
+.p3 {
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  line-height: 1.8;
+  margin-bottom: 30px;
+  padding-left: 23px;
+}
+
+.s1 {
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  padding-right: 312px;
+}
+
+.s2 {
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  padding-right: 154px;
+  margin-bottom: 30px;
+}
+
+.s3 {
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  padding-right: 194px;
+  margin-bottom: 30px;
+}
+
+.s4 {
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  padding-right: 312px;
+}
+
+.s5 {
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  padding-left: 49px;
+  padding-right: 307px;
+  margin-bottom: 30px;
+}
+.s6 {
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  padding-right: 360px;
+  margin-bottom: 30px;
+  padding-left: 42px;
+}
+
+.headlines {
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  line-height: 1.8;
+  margin-bottom: 30px;
+  flex-direction: column;
+  padding-left: 430px;
+  line-height: 1.8;
+}
+
+.ul {
+  padding-left: 450px;
+  font-size: 22px;
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+ol {
+  margin-bottom: 30px;
+  line-height: 1.8;
+  padding-left: 450px;
+  font-size: 22px;
+}
+/* Footer */
+
+.footernav {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.footerul {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.footerul li a {
+  text-decoration: none;
+  color: black;
+  font-family: "Raleway", sans-serif;
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 700;
+  margin-right: 20px;
+  margin-left: 20px;
+  letter-spacing: 2px;
+}
+
+.footerul li {
+  list-style: none;
+  display: inline-block;
+}
+
+.footerul li a:hover {
+  color: #d43c67;
+  cursor: pointer;
+}
+
+.p28 {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 14px;
+  margin-bottom: 40px;
+}
+
+.p28 a {
+  text-decoration: none;
+  color: black;
+}
+
+.p28 a:hover {
+  color: #d43c67;
+  cursor: pointer;
+}
+
+/* End of footer */
+/* Responsive */
+
+@media screen and (max-width: 700px) {
+  .headernav {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .headerul {
+    margin-top: 50px;
+    margin-left: 0px;
+  }
+
+  .headerul li {
+    list-style: none;
+    display: block;
+    margin-left: 0px;
+  }
+
+  .footernav {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .footerul {
+    margin-top: 50px;
+    margin-left: 0px;
+  }
+
+  .footerul li {
+    list-style: none;
+    display: block;
+    margin-left: 0px;
+  }
+  
+}
