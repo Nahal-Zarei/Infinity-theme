@@ -1,0 +1,665 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+
+
+/* Header style */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url("/Images/wepik-photo-mode-202286-221150.png");
+    height: 500px;
+    width: 100%;
+}
+
+
+.headernav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.infinity {
+    color: white;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 10px;
+    top: 13px;
+}
+
+.headerul {
+    margin-top: 14px;
+}
+
+.headerul li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 700;
+    margin-right: 20px;
+    margin-left: 20px;
+    letter-spacing: 2px;
+}
+
+.headerul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.headerul li a:hover {
+    color: #D43C67;
+    cursor: pointer;
+}
+
+h1 {
+    color: white;
+    font-size: 4rem;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 400;
+    text-align: center;
+    justify-content: center;
+    margin: 20vh auto 0;
+}
+
+.p1 {
+    color: white;
+    font-size: 1.2rem;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 0;
+}
+
+.btn1 {
+    color: #ffffff;
+    background-color: #D43C67;
+    font-family: 'Raleway', sans-serif;
+    font-size: 8px;
+    font-weight: 700;
+    border: none;
+    text-align: center;
+    display: block;
+    margin: 30px auto;
+    padding: 8px 25px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    
+}
+
+.a1 {
+    text-decoration: none;
+    color: #ffffff;
+} 
+
+.btn1:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+   
+/* End of header style */
+/* Main style */
+
+/* Our Ethos div style */
+#maindiv {
+    width: 100%;
+    height: 550px;
+    
+}
+
+.h22{
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 500;
+    font-size: 40px;
+    padding-top: 150px;
+}
+
+.p2 {
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 25px;
+    font-weight: 200;
+    font-style: italic;
+    padding-top: 25px;
+    line-height: 45px;
+}
+
+.btn2 {
+    color: #ffffff;
+    background-color: #D43C67;
+    font-family: 'Raleway', sans-serif;
+    font-size: 8px;
+    font-weight: 700;
+    border: none;
+    text-align: center;
+    display: block;
+    margin: 30px auto;
+    padding: 8px 15px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+
+.btn2:hover {
+     color: white;
+    background-color: black;
+}
+
+.a2 {
+    text-decoration: none;
+    color: #000000;
+} 
+/* End of Our Ethos div style */
+
+/* We believe div style */
+
+#maindiv2 {
+    background-image: url("/Images/pexels-karsten-madsen-18104.jpg");
+    height: 450px;
+    width: 100%;
+}
+
+.h23 {
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 500;
+    font-size: 40px;
+    padding-top: 150px;
+    color: #ffffff;
+}
+
+.p23 {
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 25px;
+    font-weight: 200;
+    font-style: italic;
+    padding-top: 25px;
+    line-height: 45px;
+    color: white;
+}
+
+.btn23 {
+    color: #ffffff;
+    background-color: #D43C67;
+    font-family: 'Raleway', sans-serif;
+    font-size: 8px;
+    font-weight: 700;
+    border: none;
+    text-align: center;
+    display: block;
+    margin: 30px auto;
+    padding: 8px 15px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    
+}
+
+.a23 {
+    text-decoration: none;
+    color: #ffffff;
+} 
+
+.btn23:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+/* End of we believe div style */
+/* Feature boxes style */
+
+#firstsection {
+    width: 100%;
+}
+
+.h24 {
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 500;
+    font-size: 40px;
+    padding-top: 150px;
+}
+
+.p24 {
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 25px;
+    font-weight: 200;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    line-height: 45px;
+}
+
+.boxcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1280px;
+    margin-bottom: 150px;
+}
+
+.boxdiv {
+    background-color: #f4f4f4;
+    height: 250px;
+    width: 350px;
+    margin: 10px 10px;
+    display: inline-block;    
+}
+
+.boxdiv h4 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 2px; 
+    font-weight: 900;
+    font-size: 12px;
+    padding-bottom: 20px;
+}
+
+.boxdiv p {
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    line-height: 25px;
+}
+
+.boxdiv img {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 55px;
+    padding-bottom: 20px;
+}
+/* End of feature box style */
+
+/* mission style */
+
+.mission {
+    background-image: url(/Images/modern-laptop-on-wooden-desk-picjumbo-com.jpg);
+    background-position: bottom;
+    width: 100%;
+    height: 500px;
+}
+
+.h25 {
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 500;
+    font-size: 40px;
+    padding-top: 150px;
+    color: #ffffff;
+}
+
+.p25 {
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 25px;
+    font-weight: 200;
+    font-style: italic;
+    padding-top: 25px;
+    line-height: 45px;
+    color: white;
+}
+
+
+.btn25 {
+    color: #ffffff;
+    background-color: #D43C67;
+    font-family: 'Raleway', sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    border: none;
+    text-align: center;
+    display: block;
+    margin: 30px auto;
+    padding: 10px 15px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    
+}
+
+.a25 {
+    text-decoration: none;
+    color: #ffffff;
+} 
+
+.btn25:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+ /* End of mission style */
+
+ /* team member style */
+ .secondsection {
+    width: 100%;
+ }
+
+.h26 {
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 500;
+    font-size: 40px;
+    padding-top: 150px;
+}
+
+.p26 {
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
+    font-weight: 200;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    line-height: 45px;
+}
+
+.span1 {
+    color: #D43C67;
+}
+
+.teammembercontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1280px;
+    margin-bottom: 150px;
+}
+
+.teammember {
+    background-color: #f4f4f4;
+    height: 250px;
+    width: 250px;
+    margin: 10px 10px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.member1 img {
+    width: 100%;
+}
+
+.teammember::before {
+    content: "";
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
+    background: #000000d7;
+    display: none;
+}
+
+.info {
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    display: none;
+}
+
+.teammember:hover::before {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.teammember:hover .info {
+    display: flex;
+}
+
+.info h2 {
+    color: white;
+    font-family: 'Cormorant Garamond', serif;
+    text-align: center;
+    padding-top: 65px;
+    margin-bottom: 0px;
+}
+.info p {
+    color: white;
+    font-family: 'Cormorant Garamond', serif;
+    text-align: center;
+    padding-bottom: 70px;
+    font-size: 20px;
+}
+
+.member2 img {
+    width: 100%;
+}
+.member3 img {
+    width: 100%;
+}
+.member4 img {
+    width: 100%;
+}
+.member5 img {
+    width: 100%;
+}
+.member6 img {
+    width: 100%;
+}
+.member7 img {
+    width: 100%;
+}
+.member8 img {
+    width: 100%;
+}
+
+/* End of team member style */
+
+/*  Work with us style  */
+
+.workwithus {
+    background-image: url(/Images/business-woman-using-her-laptop-on-a-sofa-picjumbo-com.jpg);
+    background-position: center;
+    width: 100%;
+    height: 500px;
+}
+
+.h27 {
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 500;
+    font-size: 40px;
+    padding-top: 150px;
+    color: #ffffff;
+}
+
+.p27 {
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 25px;
+    font-weight: 200;
+    font-style: italic;
+    padding-top: 25px;
+    line-height: 45px;
+    color: white;
+}
+
+
+.btn27 {
+    color: #ffffff;
+    background-color: #D43C67;
+    font-family: 'Raleway', sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    border: none;
+    text-align: center;
+    display: block;
+    margin: 30px auto;
+    padding: 10px 15px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    
+}
+
+.a27 {
+    text-decoration: none;
+    color: #ffffff;
+} 
+
+.btn27:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+
+/* End of work with us style */
+
+/* Footer */
+
+.footernav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.footerul {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.footerul li a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 700;
+    margin-right: 20px;
+    margin-left: 20px;
+    letter-spacing: 2px;
+}
+
+.footerul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.footerul li a:hover {
+    color: #D43C67;
+    cursor: pointer;
+}
+
+.p28 {
+    text-align: center;
+    display: flex;
+    justify-content: center; 
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+
+
+.p28 a {
+    text-decoration: none;
+    color: black;
+}
+
+.p28 a:hover {
+    color: #D43C67;
+    cursor: pointer;   
+}
+
+/* making responsive */
+
+
+@media screen and (max-width: 700px) {
+
+.headernav {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.headerul {
+    margin-top: 50px;
+    margin-left: 0px;
+}
+
+.headerul li {
+    list-style: none;
+    display: block;
+    margin-left: 0px;
+}
+
+.boxcontainer {
+    padding-left: 0;
+}
+
+.teammembercontainer {
+    padding-left: 0;
+}
+
+.footernav {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.footerul {
+    margin-top: 50px;
+    margin-left: 0px;
+}
+
+.footerul li {
+    list-style: none;
+    display: block;
+    margin-left: 0px;
+}
+
+}
+
+
+@media screen and (max-width:500px) {
+    
+h1 {
+    font-size: 2.5rem;
+    margin: 10vh auto 0;
+}
+
+.p1 {
+    font-size: 1rem;
+}
+
+.h22 {
+    padding-top: 90px;
+}
+
+.h23 {
+    padding-top: 55px;
+}
+
+.h25 {
+    padding-top: 55px;
+}
+
+.h27 {
+    padding-top: 55px;
+}
+
+.p28 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+}
