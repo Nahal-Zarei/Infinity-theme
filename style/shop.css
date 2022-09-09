@@ -74,6 +74,7 @@ header {
   width: 156px;
   height: 198px;
   background-color: gray;
+  border: 3px solid springgreen;
   border-radius: 10px;
   margin: 20px 30px 30px 30px;
 }
